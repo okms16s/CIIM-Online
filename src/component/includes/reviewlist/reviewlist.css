@@ -1,0 +1,11 @@
+.reviews-img {
+    width: 85px !important;
+    height: 85px;
+    margin-right: 5px;
+    padding: 0px !important;
+    border-radius: 1000px;
+}
+
+#reviewsCarousel h5 {
+    line-height: 20px !important;
+}

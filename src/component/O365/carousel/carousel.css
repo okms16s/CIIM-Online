@@ -1,0 +1,28 @@
+.o365-scroll {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.o365-content {
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    width: 550px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .o365-content {
+        width: 300px;
+        bottom: 20px;
+        left: 20px;
+        font-size: 25px !important;
+    }
+
+    .o365-scroll {
+        display: none;
+    }
+}

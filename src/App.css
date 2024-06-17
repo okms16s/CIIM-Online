@@ -1,0 +1,302 @@
+:root {
+  --primary: #124759;
+  --secondary: #D0EBEC;
+  --gray: #757575;
+  --white: #ffffff;
+  --blue: #64bbc2;
+}
+
+.row,
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* background */
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.bg-hover-primary:hover {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-liner-primary {
+  background: linear-gradient(90deg, #124759 -9.04%, #64BBC2 131.5%);
+}
+
+/* Text color */
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+.text-white {
+  color: var(--white) !important;
+}
+
+.text-blue {
+  color: var(--blue) !important;
+}
+
+.text-span-primary span {
+  color: var(--primary);
+}
+
+.text-span-secondary span {
+  color: var(--blue);
+}
+
+/* Button */
+button {
+  min-width: 320px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--primary);
+  border-radius: 60px;
+  font-size: 20px;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  background-color: var(--blue);
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+@media (max-width: 991px) {
+  button {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+}
+
+/* Main Container */
+.cim-container {
+  padding: 100px 50px 100px 50px;
+  border-radius: 40px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .cim-container {
+    padding: 50px 25px 50px 25px;
+    border-radius: 20px;
+  }
+}
+
+/* Font */
+p {
+  margin: 0px !important;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 68px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 34px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    line-height: 58px;
+  }
+
+  h2 {
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+}
+
+/* margin */
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .mt-md-50 {
+    margin-top: 50px !important;
+  }
+
+  .mb-md-50 {
+    margin-bottom: 50px !important;
+  }
+
+  .mt-md-20 {
+    margin-top: 20px !important;
+  }
+}
+
+/* padding */
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 991px) {
+  .pt-md-50 {
+    padding-top: 50px !important;
+  }
+
+  .pb-md-50 {
+    padding-bottom: 50px !important;
+  }
+}
+
+/* width */
+.w-fit {
+  width: fit-content;
+}
+
+.w-min-0 {
+  min-width: 0px !important;
+}
+
+@media (max-width: 991px) {
+  .w-md-100 {
+    width: 100% !important;
+  }
+
+  .w-md-50 {
+    width: 50% !important;
+  }
+}
+
+/* border */
+.border-primary {
+  border-color: var(--primary) !important;
+}
+
+.border-radius-40 {
+  border-radius: 40px;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+/* cursor */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* input */
+input[type="text"],
+input[type="text"]:hover,
+input[type="text"]:active,
+input[type="text"]:focus {
+  border: none;
+  border-bottom: 1px solid var(--gray);
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.form-select,
+.form-select:hover,
+.form-select:active,
+.form-select:focus,
+.form-select:focus-visible {
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 1px solid var(--gray);
+  outline: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.radio-btn,
+.radio-btn:focus,
+.radio-btn:active,
+.radio-btn:hover,
+.radio-btn:focus-visible {
+  width: 15px !important;
+  height: 15px !important;
+  box-shadow: none;
+}
+
+.radio-btn:checked {
+  background-color: var(--primary);
+}
+
+.radio-btn:not(:checked) {
+  background: transparent;
+}

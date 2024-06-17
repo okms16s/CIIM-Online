@@ -1,0 +1,27 @@
+.price-container>div {
+    width: 30%;
+}
+
+.form-check-input {
+    width: 74px !important;
+    height: 33px;
+    background-color: #124759;
+}
+
+@media (max-width: 1400px) {
+    .price-container {
+        flex-direction: column;
+    }
+
+    .price-container>div {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .price-container>div {
+        width: 100%;
+    }
+}
